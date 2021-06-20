@@ -1,0 +1,58 @@
+*{
+    margin: 15px;
+    box-sizing: border-box;
+    cursor: alias;
+}
+html{margin: 1;}
+.result{
+    border:1px solid white;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: thistle;
+
+}
+.history{
+    border: 1px solid white;
+    border-radius:10px ;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    color: thistle;
+
+}
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+body{
+    background: url(gamebg.jpg);
+    background-size:contain;
+background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow:45px ;
+    transform-style: preserve-3d;perspective: 12px;
+}
+
+
+button{
+    
+    border-radius: 5px;
+    cursor:pointer ;
+
+
+}
+input{
+    cursor:text;
+}
+.hedding{
+    color: thistle;
+}

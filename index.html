@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div class="heading"><h1>Guessing Game</h1></div>
+        <div class="label"><h3>Enter your Guess</h3></div>
+        <div class="input">
+            <input type="number" id="input" min="1" max="10">
+        </div>
+        <div class="buttons">
+            <button onclick="game()">Submit</button>
+            <button onclick="reload()">Reset</button>
+        </div>
+        <div class="result"><h4>Let's Play</h4></div>
+        <div class="history"></div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
